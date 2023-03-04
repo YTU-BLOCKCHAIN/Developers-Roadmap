@@ -1,13 +1,13 @@
 # Rust Roadmap :crab:
-* Bu yol haritasının amacı sizleri Rust'ta başlangıç aşamasından ileri seviyeye taşıyacak şekilde dili kavramak ve günümüzdeki bizim amaçladığımız Smart Contractlar ama bunun haricinde Rust'ın kullanılabildiği diğer sektörlere de zemin hazırlamaktır. [YTU Blockchain](https://twitter.com/BlockchainYtu) üyeleri tarafından hazırlanan bu Roadmap Rust'ı yeni öğrenecek adaylara öğretici ve pekiştirici bir zemin sunmayı hedeflemektedir. Ayrıca çeşitli etkinlikler ve iş fırsatlarıyla birlikte Rust geliştiricilerini bir çatı altında topladığımız [Whatsapp'taki "Topluluk" kanalımıza](https://www.youtube.com/watch?v=dQw4w9WgXcQ) katılabilirsiniz. Şimdilik birçok kaynak İngilizce olarak yol haritasında yer alsa da gelecek dönemlerde ilgili konu başlıkları altında olabildiğince çok Türkçe kaynağı kendimiz üretmeyi hedefliyoruz.
+* Bu yol haritasının amacı sizleri Rust'ta başlangıç aşamasından ileri seviyeye taşıyacak şekilde dili kavramak ve günümüzdeki bizim amaçladığımız Smart Contractlar ama bunun haricinde Rust'ın kullanılabildiği diğer sektörlere de zemin hazırlamaktır. [YTU Blockchain](https://linktr.ee/blockchainytu) üyeleri tarafından hazırlanan bu Roadmap Rust'ı yeni öğrenecek adaylara öğretici ve pekiştirici bir zemin sunmayı hedeflemektedir. Ayrıca çeşitli etkinlikler ve iş fırsatlarıyla birlikte Rust geliştiricilerini bir çatı altında topladığımız topluluğumuza [Buradan](https://linktr.ee/blockchainytu) erişebilirsiniz. Şimdilik birçok kaynak İngilizce olarak yol haritasında yer alsa da gelecek dönemlerde ilgili konu başlıkları altında olabildiğince çok Türkçe kaynağı kendimiz üretmeyi hedefliyoruz.
 
 * Aşağıdaki tablo sırası ile Rust'ta adım adım ilerleyebilmeniz için tasarlanmıştır 👇🏻
 
 ## İçerik
 | Konu Başlıkları  |
 |:------------- |
-| [Gereksinimler](#gereksinimler)|
-| [Nasıl İlerlenmeli](#nasıl-ilerlenmeli)|
+| [Requirements](#requirements)|
+| [How to Learn Better](#how-to-learn-better)|
 | [Cargo Package Management](#cargo-package-management)|
 | [Common Programming Concepts](#common-programming-concepts)|
 | [Ownership](#ownership)|
@@ -18,11 +18,11 @@
 | [Writing Automated Tests](#writing-automated-tests)|
 | [Iterators and Closures](#iterators-and-closures)|
 
-## Gereksinimler
+## Requirement
 → Öncelikle sisteminizde [Rust](https://www.rust-lang.org/tools/install) kurulu olmalı. (Win-Linux-Mac) <br/>
 → Hemen ardından komutlar için [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) kurulu olmalı. (Win-Linux-Mac)<br/>
 → Tercihen pekiştirmek adına [Rustlings](https://github.com/rust-lang/rustlings/) kurabilirsiniz. (Rustlings içerisinde konu konu basitten zora olacak şekilde örnekler içeren, sizden bozuk kodu düzeltmenizi isteyen bir uygulama)
-## Nasıl İlerlenmeli
+## How to Learn Better
 → Yol haritamızdaki ilk adım Rust dilinin genel yazım kurallarına değinmek olacak. Buradaki kaynaklar kavrama güçlüğü çekilebilme ihtimaline karşılık bollandırılmış bir şekilde sunuldu. Kendinize "Ben olmuşum ya!" diyebiliyorsanız gönül rahatlığıyla geçebilirsiniz. Tavsiyemiz [Rustlings](https://github.com/rust-lang/rustlings/) üzerindeki konu sıralamasına göre önce aşağıda vermiş olduğumuz dökümantasyonları iyice kavrayıp örnekleri incelemeniz. Ardından hemen Rustlings'teki örnekleri yapmanız. Bu şekilde öğreniminiz pekişecektir.
 ## Cargo Package Management
 * [Rust Book Hello Cargo](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html)
