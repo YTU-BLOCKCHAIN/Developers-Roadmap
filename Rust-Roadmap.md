@@ -1,7 +1,8 @@
 # Rust Roadmap :crab:
-* Bu yol haritasının amacı sizleri Rust'ta başlangıç aşamasından ileri seviyeye taşıyacak şekilde dili kavramak ve günümüzdeki bizim amaçladığımız Smart Contractlar ama bunun haricinde Rust'ın kullanılabildiği diğer sektörlere de zemin hazırlamaktır. [YTU Blockchain](https://linktr.ee/blockchainytu) üyeleri tarafından hazırlanan bu Roadmap Rust'ı yeni öğrenecek adaylara öğretici ve pekiştirici bir zemin sunmayı hedeflemektedir. Ayrıca çeşitli etkinlikler ve iş fırsatlarıyla birlikte Rust geliştiricilerini bir çatı altında topladığımız topluluğumuza [Buradan](https://linktr.ee/blockchainytu) erişebilirsiniz. Şimdilik birçok kaynak İngilizce olarak yol haritasında yer alsa da gelecek dönemlerde ilgili konu başlıkları altında olabildiğince çok Türkçe kaynağı kendimiz üretmeyi hedefliyoruz.
+* Bu yol haritasının amacı sizleri Rust'ta başlangıç aşamasından ileri seviyeye taşıyacak şekilde dili kavramak ve günümüzdeki bizim amaçladığımız Smart Contractlar ama bunun haricinde Rust'ın kullanılabildiği diğer sektörlere de zemin hazırlamaktır. [YTU Blockchain](https://linktr.ee/blockchainytu) üyeleri tarafından hazırlanan bu Roadmap Rust'ı yeni öğrenecek adaylara öğretici ve pekiştirici bir zemin sunmayı hedeflemektedir. Ayrıca çeşitli etkinlikler ve iş fırsatlarıyla birlikte Rust geliştiricilerini bir çatı altında topladığımız Discord kanalımıza ve diğer sosyal medya hesaplarımıza [Buradan](https://linktr.ee/blockchainytu) erişebilirsiniz. Şimdilik birçok kaynak İngilizce olarak yol haritasında yer alsa da gelecek dönemlerde ilgili konu başlıkları altında olabildiğince Türkçe kaynağı kendimiz üretmeyi hedefliyoruz.
 
 * Aşağıdaki tablo sırası ile Rust'ta adım adım ilerleyebilmeniz için tasarlanmıştır 👇🏻
+
 
 ## İçerik
 | Konu Başlıkları  |
@@ -20,10 +21,11 @@
 
 ## Requirement
 → Öncelikle sisteminizde [Rust](https://www.rust-lang.org/tools/install) kurulu olmalı. (Win-Linux-Mac) <br/>
-→ Hemen ardından komutlar için [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) kurulu olmalı. (Win-Linux-Mac)<br/>
-→ Tercihen pekiştirmek adına [Rustlings](https://github.com/rust-lang/rustlings/) kurabilirsiniz. (Rustlings içerisinde konu konu basitten zora olacak şekilde örnekler içeren, sizden bozuk kodu düzeltmenizi isteyen bir uygulama)
+→ Hemen ardından gerekli komutlar ve compiler için [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) kurulu olmalı. (Win-Linux-Mac)<br/>
+→ İçerisindeki 94 egzersiz ile birlikte konuları pekiştirmek ve yazma becerisi kazanmak adına [Rustlings](https://github.com/rust-lang/rustlings/) kurmanızı öneriyoruz. (Rustlings, içerisinde konu konu basitten zora olacak şekilde örnekler içeren, sizden bozuk kodu düzeltmenizi isteyen bir uygulama)
+→ Rustlings açıklamalı cevap anahtarı için: [Rustlings Solutions](https://github.com/edizzum/rustlings-solutions/tree/rustlings)
 ## How to Learn Better
-→ Yol haritamızdaki ilk adım Rust dilinin genel yazım kurallarına değinmek olacak. Buradaki kaynaklar kavrama güçlüğü çekilebilme ihtimaline karşılık bollandırılmış bir şekilde sunuldu. Kendinize "Ben olmuşum ya!" diyebiliyorsanız gönül rahatlığıyla geçebilirsiniz. Tavsiyemiz [Rustlings](https://github.com/rust-lang/rustlings/) üzerindeki konu sıralamasına göre önce aşağıda vermiş olduğumuz dökümantasyonları iyice kavrayıp örnekleri incelemeniz. Ardından hemen Rustlings'teki örnekleri yapmanız. Bu şekilde öğreniminiz pekişecektir.
+→ Yol haritamızdaki ilk adım Rust dilinin genel yazım kurallarına değinmek olacak. Buradaki kaynaklar kavrama güçlüğü çekilebilme ihtimaline karşılık bollandırılmış bir şekilde sunuldu. Kendinize "Ben olmuşum ya!" diyebiliyorsanız gönül rahatlığıyla diğer konuya geçebilirsiniz. Tavsiyemiz [Rustlings](https://github.com/rust-lang/rustlings/) üzerindeki konu sıralamasına göre önce aşağıda vermiş olduğumuz dökümantasyonları iyice kavrayıp örnekleri incelemeniz. Ardından hemen Rustlings'teki örnekleri yapmanız. Bu şekilde öğreniminiz pekişecektir.
 ## Cargo Package Management
 * [Rust Book Hello Cargo](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html)
 * [Rust By Example Cargo](https://doc.rust-lang.org/rust-by-example/cargo.html)
